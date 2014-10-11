@@ -62,7 +62,7 @@ a{
 ------------------------------------*/
 
 .headpicture{
-	background:url(../images/background.jpg);
+	background:url(../images/background.jpeg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	width: 100%;
@@ -188,7 +188,7 @@ h1{
 
 /* On smaller screens */
 
-@media (max-width: 9400px) {
+@media (max-width: 992px) {
 	
 	/* General */
 	
