@@ -13,6 +13,11 @@ a{
 	color :#8d736c !important;
 }
 
+.imgsize {
+	max-width: 200px;
+	max-height: 200px;
+}
+
 
 /*-----------------------------------
 	Navigation Bar Styles
