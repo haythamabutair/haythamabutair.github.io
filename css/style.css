@@ -272,6 +272,19 @@ img + h4,
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
+.facebook {
+    display: inline-block;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  font-size: 25px;
+  color: #FFF;
+  background: #2292fa;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
 .social-list .fa:hover {
   color: #FFF;
   background: #1d71eb;
