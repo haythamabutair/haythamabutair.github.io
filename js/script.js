@@ -236,7 +236,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     margin:10,
     autoplay:true,
     autoplayTimeout:4000,
-    autoplayHoverPause:true
+    autoplayHoverPause:false
             });
         });
     }
