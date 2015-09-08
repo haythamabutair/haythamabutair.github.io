@@ -249,7 +249,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
                 items: 1,
                 smartSpeed: 1000,
                 dots: true,
-                nav: true,
+                nav: false,
                 autoplayHoverPause:false
             });
         });
