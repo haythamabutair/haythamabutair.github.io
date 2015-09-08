@@ -231,11 +231,11 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         include('js/owl.carousel.min.js');
         $(document).ready(function () {
             o.owlCarousel({
-                 items:2,
+                 items:1,
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:4000,
     autoplayHoverPause:true
             });
         });
