@@ -27,8 +27,7 @@
             map: {
                 y: 31.7189486,
                 x: 35.253477,
-                zoom: 16,
-                 mapTypeId: google.maps.MapTypeId.SATELLITE
+                zoom: 16
             },
             locations: []
         };
@@ -89,7 +88,8 @@
                     ),
                     scrollwheel: false,
                     styles: settings.styles,
-                    zoom: options.map.zoom
+                    zoom: options.map.zoom,
+                    mapTypeId: google.maps.MapTypeId.SATELLITE
                 }),
                 infowindow = new google.maps.InfoWindow(),
                 markers = [];
