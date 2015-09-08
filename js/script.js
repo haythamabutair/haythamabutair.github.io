@@ -234,7 +234,10 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
                 items: 1,
                 smartSpeed: 450,
                 dots: true,
-                nav: false
+                nav: true,
+                 slideSpeed : 200,
+                paginationSpeed : 800,
+               rewindSpeed : 1000
             });
         });
     }
