@@ -89,7 +89,7 @@
                     scrollwheel: false,
                     styles: settings.styles,
                     zoom: options.map.zoom,
-                    mapTypeId: google.maps.MapTypeId.SATELLITE
+                    mapTypeId: google.maps.MapTypeId.HYBRID
                 }),
                 infowindow = new google.maps.InfoWindow(),
                 markers = [];
