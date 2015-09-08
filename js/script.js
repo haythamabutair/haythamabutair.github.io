@@ -236,7 +236,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     margin:10,
     autoplay:true,
     autoplayTimeout:4000,
-    autoplayHoverPause:false
+    autoplayHoverPause:true
             });
         });
     }
@@ -247,9 +247,10 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         $(document).ready(function () {
             o2.owlCarousel({
                 items: 1,
-                smartSpeed: 450,
+                smartSpeed: 1000,
                 dots: true,
-                nav: false
+                nav: true,
+                autoplayHoverPause:false
             });
         });
     }
