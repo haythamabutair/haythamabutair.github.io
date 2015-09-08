@@ -27,7 +27,7 @@
             map: {
                 y: 31.7189486,
                 x: 35.253477,
-                zoom: 16
+                zoom: 16,
                  mapTypeId: google.maps.MapTypeId.SATELLITE
             },
             locations: []
