@@ -231,13 +231,12 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         include('js/owl.carousel.min.js');
         $(document).ready(function () {
             o.owlCarousel({
-                items: 1,
-                smartSpeed: 450,
-                dots: true,
-                nav: true,
-                 slideSpeed : 200,
-                paginationSpeed : 800,
-               rewindSpeed : 1000
+                 items:2,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
             });
         });
     }
