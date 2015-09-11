@@ -17,7 +17,7 @@ Varsion: 1.1
 			object = {
 				url: 'bat/booking.php', // php-script url
 				sender: 'haytham.abutair@gmail.com', // sender for header in e-mail
-				ownerEmail:'support@template-help.com', // destination e-mail, message will be send on this e-mail
+				ownerEmail:'haytham.abutair@gmail.com', // destination e-mail, message will be send on this e-mail
 				validate:true, // validate or not
 				errorMessageClass:'.error-message', // error-message class
 				successMessageClass:'.success-message', // success-message class
