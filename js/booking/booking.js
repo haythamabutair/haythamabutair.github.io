@@ -16,7 +16,7 @@ Varsion: 1.1
 			data = $this.data('bookingForm'),
 			object = {
 				url: 'bat/booking.php', // php-script url
-				sender: '', // sender for header in e-mail
+				sender: 'haytham.abutair@gmail.com', // sender for header in e-mail
 				ownerEmail:'support@template-help.com', // destination e-mail, message will be send on this e-mail
 				validate:true, // validate or not
 				errorMessageClass:'.error-message', // error-message class
